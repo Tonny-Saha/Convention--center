@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --text-color: #3E3E3E;
+    --banner-color:  linear-gradient(180deg, rgba(rgb(251, 133, 255), .15), rgba(orange, 0.5));
+}
+.nav .container-fluid a{
+    font-size: 12px;
+    color: var(--text-color);
+}
+.carousel-inner {
+    background-color: var(--banner-color);
+}
+
+.carousel p{
+    top: 25em;
+    font-size: 15px;
+    width: 20%;;
+}
+.carousel .head-button{
+    top: 28em;
+}
